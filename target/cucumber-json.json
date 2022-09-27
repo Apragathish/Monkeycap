@@ -1,0 +1,198 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 20,
+        "name": "",
+        "description": "To valiate whether user is able to land successfully in Quotes screen upon providing valid details",
+        "id": "quotes-feature-testing;;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 462213500,
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat com.Monkey_Cap.stepDefinitions.Homepage.user_landed_into_the_Application(Homepage.java:17)\r\n\tat ✽.Given User landed into the Application(src/test/java/com/Monkey_Cap/features/TestCases.feature:6)\r\n",
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "User landed into the Application",
+            "match": {
+              "location": "Homepage.user_landed_into_the_Application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User inputs the Registration number of the vehicle \"TN-05-AD-0993\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TN-05-AD-0993",
+                  "offset": 52
+                }
+              ],
+              "location": "Homepage.user_inputs_the_Registration_number_of_the_vehicle(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User click on Get Quotes button",
+            "match": {
+              "location": "Homepage.user_click_on_Get_Quotes_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "User lands in Choose your vehicle screen",
+            "match": {
+              "location": "Vehicle_Details.user_lands_in_Choose_your_vehicle_screen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "User edits the expiry date to plus 5 days",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 35
+                }
+              ],
+              "location": "Vehicle_Details.user_edits_the_expiry_date_to_plus_days(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User click on PROCEED button",
+            "match": {
+              "location": "Vehicle_Details.user_click_on_PROCEED_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "User chooses \"No\" as Claimed Status",
+            "match": {
+              "arguments": [
+                {
+                  "val": "No",
+                  "offset": 14
+                }
+              ],
+              "location": "StatusOption.user_chooses_as_Claimed_Status(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "User chooses \"No\" as Ownership change Status",
+            "match": {
+              "arguments": [
+                {
+                  "val": "No",
+                  "offset": 14
+                }
+              ],
+              "location": "StatusOption.user_chooses_as_Ownership_change_Status(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "User chooses \"20%\" in No Claim Bonus dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "20%",
+                  "offset": 14
+                }
+              ],
+              "location": "StatusOption.user_chooses_in_No_Claim_Bonus_dropdown(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "User click on SUBMIT button",
+            "match": {
+              "location": "StatusOption.user_click_on_SUBMIT_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "User lands in Quotes page successfully",
+            "match": {
+              "location": "Quotes.user_lands_in_Quotes_page_successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "User validates results Quotes are displayed",
+            "match": {
+              "location": "Quotes.user_validates_results_Quotes_are_displayed()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Quotes feature testing",
+    "description": "",
+    "id": "quotes-feature-testing",
+    "keyword": "Feature",
+    "uri": "src/test/java/com/Monkey_Cap/features/TestCases.feature"
+  }
+]

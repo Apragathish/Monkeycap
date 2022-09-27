@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.462213">
+    <testcase classname="Quotes feature testing" name="_2" time="0.462213">
+        <failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:52)&#13;&#10;&#9;at com.Monkey_Cap.stepDefinitions.Homepage.user_landed_into_the_Application(Homepage.java:17)&#13;&#10;&#9;at ✽.Given User landed into the Application(src/test/java/com/Monkey_Cap/features/TestCases.feature:6)&#13;&#10;">
+            <![CDATA[Given User landed into the Application......................................failed
+When User inputs the Registration number of the vehicle "TN-05-AD-0993".....skipped
+When User click on Get Quotes button........................................skipped
+Then User lands in Choose your vehicle screen...............................skipped
+When User edits the expiry date to plus 5 days..............................skipped
+When User click on PROCEED button...........................................skipped
+When User chooses "No" as Claimed Status....................................skipped
+When User chooses "No" as Ownership change Status...........................skipped
+When User chooses "20%" in No Claim Bonus dropdown..........................skipped
+When User click on SUBMIT button............................................skipped
+Then User lands in Quotes page successfully.................................skipped
+And User validates results Quotes are displayed.............................skipped
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at com.Monkey_Cap.stepDefinitions.Homepage.user_landed_into_the_Application(Homepage.java:17)
+	at ✽.Given User landed into the Application(src/test/java/com/Monkey_Cap/features/TestCases.feature:6)
+]]>
+        </failure>
+    </testcase>
+</testsuite>
